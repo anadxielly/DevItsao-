@@ -4,91 +4,113 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV - Anadxielly Vargas Peña</title>
-    <style>
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background-color: #f0f2f5;
-            margin: 0;
-            padding: 20px;
-            color: #333;
-        }
-        .cv-container {
-            max-width: 850px;
-            margin: 0 auto;
-            background-color: #fff;
-            padding: 40px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
-            border-top: 15px solid #1a3a5a;
-        }
-        header {
-            text-align: center;
-            border-bottom: 2px solid #eee;
-            padding-bottom: 20px;
-            margin-bottom: 20px;
-        }
-        h1 {
-            margin: 0;
-            color: #1a3a5a;
-            text-transform: uppercase;
-            letter-spacing: 2px;
-        }
-        .subtitle {
-            font-size: 1.2em;
-            color: #666;
-            margin-top: 5px;
-        }
-        .contact-info {
-            margin-top: 15px;
-            display: flex;
-            justify-content: center;
-            gap: 20px;
-            font-size: 0.9em;
-        }
-        .main-content {
-            display: grid;
-            grid-template-columns: 2fr 1fr;
-            gap: 30px;
-        }
-        h2 {
-            color: #1a3a5a;
-            font-size: 1.1em;
-            border-bottom: 1px solid #1a3a5a;
-            padding-bottom: 5px;
-            text-transform: uppercase;
-        }
-        .section {
-            margin-bottom: 25px;
-        }
-        .project {
-            margin-bottom: 15px;
-        }
-        .project-title {
-            font-weight: bold;
-            color: #2c3e50;
-        }
-        ul {
-            padding-left: 20px;
-        }
-        li {
-            margin-bottom: 5px;
-        }
-        .skills-list {
-            list-style: none;
-            padding: 0;
-        }
-        .skills-list li {
-            background: #e9ecef;
-            padding: 5px 10px;
-            margin-bottom: 5px;
-            border-radius: 4px;
-            font-size: 0.9em;
-        }
-        @media print {
-            body { background: none; padding: 0; }
-            .cv-container { box-shadow: none; border: none; }
-        }
-    </style>
+
+<style>
+    body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background: linear-gradient(135deg, #667eea, #764ba2);
+        margin: 0;
+        padding: 20px;
+        color: #333;
+    }
+
+    .cv-container {
+        max-width: 850px;
+        margin: 0 auto;
+        background-color: #fff;
+        padding: 40px;
+        box-shadow: 0 15px 40px rgba(0,0,0,0.2);
+        border-radius: 15px;
+        border-top: 15px solid #ff4d6d;
+    }
+
+    header {
+        text-align: center;
+        border-bottom: 2px solid #f1f1f1;
+        padding-bottom: 20px;
+        margin-bottom: 20px;
+    }
+
+    h1 {
+        margin: 0;
+        color: #ff4d6d;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+    }
+
+    .subtitle {
+        font-size: 1.2em;
+        color: #764ba2;
+        margin-top: 5px;
+        font-weight: 500;
+    }
+
+    .contact-info {
+        margin-top: 15px;
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        font-size: 0.9em;
+        color: #555;
+    }
+
+    .main-content {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        gap: 30px;
+    }
+
+    h2 {
+        color: #667eea;
+        font-size: 1.1em;
+        border-bottom: 2px solid #ff4d6d;
+        padding-bottom: 5px;
+        text-transform: uppercase;
+    }
+
+    .section {
+        margin-bottom: 25px;
+    }
+
+    .project {
+        margin-bottom: 15px;
+    }
+
+    .project-title {
+        font-weight: bold;
+        color: #764ba2;
+    }
+
+    ul {
+        padding-left: 20px;
+    }
+
+    li {
+        margin-bottom: 5px;
+    }
+
+    .skills-list {
+        list-style: none;
+        padding: 0;
+    }
+
+    .skills-list li {
+        background: linear-gradient(90deg, #667eea, #764ba2);
+        color: white;
+        padding: 8px 12px;
+        margin-bottom: 8px;
+        border-radius: 8px;
+        font-size: 0.9em;
+    }
+
+    @media print {
+        body { background: none; padding: 0; }
+        .cv-container { box-shadow: none; border: none; }
+    }
+</style>
+
 </head>
+
 <body>
 
 <div class="cv-container">
@@ -111,14 +133,17 @@
 
             <div class="section">
                 <h2>Proyectos Académicos</h2>
+
                 <div class="project">
                     <span class="project-title">MediTrack:</span>
                     <p>Sistema informático orientado a la gestión y seguimiento de información médica, enfocado en mejorar el control y organización de datos de pacientes.</p>
                 </div>
+
                 <div class="project">
                     <span class="project-title">SmartAgro:</span>
                     <p>Plataforma web para el monitoreo de cultivos mediante sensores de humedad, temperatura y pH, con almacenamiento de datos en base de datos local.</p>
                 </div>
+
                 <div class="project">
                     <span class="project-title">Visual Studio (C#):</span>
                     <p>Desarrollo de aplicaciones con bases de datos distribuidas.</p>
@@ -127,9 +152,11 @@
 
             <div class="section">
                 <h2>Formación Académica</h2>
-                <p><strong>Informática</strong><br>
-                Instituto Tecnológico Superior de Acatlán de Osorio<br>
-                <em>Actualmente cursando</em></p>
+                <p>
+                    <strong>Informática</strong><br>
+                    Instituto Tecnológico Superior de Acatlán de Osorio<br>
+                    <em>Actualmente cursando</em>
+                </p>
             </div>
         </div>
 
@@ -158,8 +185,10 @@
 
             <div class="section">
                 <h2>Idiomas</h2>
-                <p><strong>Español:</strong> Nativo<br>
-                <strong>Inglés:</strong> Básico</p>
+                <p>
+                    <strong>Español:</strong> Nativo<br>
+                    <strong>Inglés:</strong> Básico
+                </p>
             </div>
         </div>
     </div>
